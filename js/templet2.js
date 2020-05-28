@@ -1,0 +1,47 @@
+$(document).ready(function(){
+    $("span.prov").hide();
+    });
+$(document).ready(function(){
+    $("span.nur").hide();
+    });
+$(document).ready(function(){
+    $("span.bus").hide();
+    });
+$(document).ready(function(){
+    $("span.tra").hide();
+    });
+$(document).ready(function(){
+    $("h3.nurse").click(function(){
+        $("span.nur").show();
+        });
+    });
+$(document).ready(function(){
+    $("h3.provider").click(function(){
+        $("span.prov").show();
+        });
+    });
+$(document).ready(function(){
+    $("h3.business").click(function(){
+        $("span.bus").show();
+        });
+    });
+$(document).ready(function(){
+    $("h3.train").click(function(){
+        $("span.tra").show();
+        });
+    });
+/*$(document).ready(function(){
+    $("form").hide();
+    });
+$(document).ready(function(){
+    $("span.fo").click(function(){
+        $("form").show();
+        });
+    });*/
+$(function(){
+    'use strict';
+    $("span.fo").click(function(){
+        $(".career").toggle();
+    })
+});
+
